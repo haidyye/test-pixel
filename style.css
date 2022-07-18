@@ -1,0 +1,380 @@
+:root{
+    --main-color: #ea2427;
+}
+.carousel-img{
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.vi{
+    z-index: 9999999999999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(c2bc39d54dc43a5c90433edbd48fc8f8.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+}
+
+.navbar{
+    border-bottom: 1 solid rgba(255, 255, 255, 0.459) !important;
+}
+.nav-item:hover a{
+    color: var(--main-color) !important;
+}
+.nav-link:hover i{
+    color: var(--main-color) !important;
+}
+.navo{
+    background-color: transparent;
+    
+    transition: background-color 2s, padding 1s;
+}
+.sub-caption h1{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.about-caption h3{
+    font-size: 70px;
+    color: rgb(179, 177, 175) ;
+}
+.title h2{
+    font-size: 50px;
+    z-index: 999;
+} 
+/*
+.about-caption::after h3{
+    content: "";
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    height: 3px;
+    width: 10%;
+}*/
+
+.progress-heading {
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.progress-title .percent1{
+    width: 68% !important;
+}
+.progress-title .percent2{
+    width: 80% !important;
+}
+.progress-title .percent3{
+    width:60%;
+}
+.progress-title .percent4{
+    width:50%;
+}
+.team-caption h3{
+   font-size: 90px;
+    color: rgb(179, 177, 175) ;
+}
+.progress .progress-bar{
+    background-color: #ea2427;
+}
+.ra{
+    width: 110px;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+}
+.item img{
+    transition: all 2s ;
+}
+.item:hover img{
+    transform:scale(1.2);
+}
+.child{
+    transition: all 1s 1s ;
+}
+.parent{
+    overflow: hidden;
+}
+.parent:hover .child{
+    opacity: 1 !important;
+
+}
+.parent:hover .sub-item1{
+    top:0 !important;
+}
+.sub-item1{
+    transition: all 1s;
+}
+.read .read1{
+    width: 100%;
+}
+.service-caption h6{
+    font-size: 22px;
+}
+.service-caption p{
+   font-size: 19px;
+}
+.icona i{
+    color: var(--main-color);
+    font-size: 30px;
+    padding-top: 15px;
+}
+.icona2{
+    color: var(--main-color);
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.services-caption h3{
+    font-size: 90px;
+     color: rgb(179, 177, 175) ;
+ }
+ .services-caption h2{
+     z-index: 999;
+     font-size: 70px;
+     padding-bottom: 30px;
+ }
+ .service-caption:hover h6{
+     color: var(--main-color);
+ }
+ .clients-caption h3{
+    font-size: 90px;
+    color: rgb(179, 177, 175) ;
+ }
+ .clients-caption h2{
+    z-index: 999;
+    font-size: 70px;
+    padding-bottom: 30px;
+ }
+.touch-caption h2{
+    z-index: 999;
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+.touch-caption h3{
+    font-size: 70px;
+    color: rgb(179, 177, 175) ;
+}
+.answers span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 20px;
+}
+.addres:hover h4{
+    color: var(--main-color);
+}
+.final{
+    background-image: url(favpng_world-map-globe-dot-distribution-map.png) !important;
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.918);
+}
+.footer{
+    width: 100% !important;
+    height: 100px !important;
+    background-color: rgb(29, 27, 27) !important;
+    position: absolute !important;
+    bottom: 0 !important;
+}
+.foter1 span{
+    font-size: 20px;
+}
+.foter1:hover span{
+    color: var(--main-color);
+}
+.foter2:hover i{
+    color: var(--main-color) !important;
+}
+
+.foterlogo {
+    width: 8%;
+    
+}
+.indicator-item img {
+    width: 200px !important;
+    height: 190px !important;
+}
+.parent img{
+    width: 100% !important;
+    height: 100% !important;
+}
+.indicator-item img.active{
+    width: 220px !important ;
+    height: 210px !important;
+} 
+.single-box p {
+    width: 400px;
+    margin: auto;
+} 
+.team h2{
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+}
+.employe{
+    display: none;
+}
+.indicator-item img.active:first-of-type + div {
+    display: block;
+}
+.wrapper{
+    width: 100%;
+  }
+  .owl-carousel{
+    max-width: 900px;
+    margin: auto;
+    padding: 0 30px;
+  }
+  .owl-carousel .card{
+    color: black;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 30px;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  }
+  .card-1{
+      
+      margin-top: 5px !important;
+
+  }
+  .owl-dots{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .owl-dot{
+    height: 15px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #ea2427!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: #ea2427!important;
+  } 
+  
+  .omar{
+  
+      line-height: 1px;
+      text-align: center !important;
+      margin-left: 10px; 
+  } 
+  
+  @media only screen and (max-width:440 ){
+    .foter1{
+        height: 300px !important;
+    }
+   .footer{
+       height: 300px !important;
+   }
+   .item{
+   width: 100% !important;
+ }
+ 
+  }
+
+@media only screen and (max-width: 600px) {
+    .slider .col-md-2 {
+      width: 100%;
+    }
+    .sub-caption h1{
+        font-size: 30px !important;
+    
+    }
+    .services-caption {
+      text-align: center;
+    }
+    .service-caption{
+        padding-bottom: 15px !important;
+    }
+    .foter1{
+        height: 100vh !important;
+    }
+    .foterlogo{
+        width: 40%;
+    }
+    .title{
+        
+        text-align: center;
+    }
+    .title h2{
+        font-size: 40px ;
+    }
+
+    .input-group{
+        height: 45px !important;
+        padding: 0;
+        margin: 0;
+    }
+   
+    .services-caption h2{
+        font-size: 45px;
+    }
+    .eslam .p .h4{
+     line-height: 1px;
+     font-size: 15px;
+    }
+    
+    .item{
+        width: 100% !important;
+      }
+    
+}
+@media only screen and (max-width: 884px), (min-width:768px ){
+  .answers{
+      padding: 20px;
+      
+  }
+  .get-touch{
+      padding: 0 !important;
+      margin: 0 !important;
+  }
+  .services{
+    padding: 5px !important;
+    margin: 0 !important;
+  }
+  .services .icona{
+      margin-right: 15px !important;
+  }
+ 
+  .part2{
+      margin: auto;
+  }
+  .final{
+      height: 500px !important;
+  }
+  .serv{
+      padding: 10px !important;
+      font-size: 16px !important;
+  }
+  .about {
+      margin:5px!important;
+     
+  }
+  .item p{
+      text-align: center; 
+      font-size: 20px;
+      width: 100% !important;
+  }
+  .item{
+    width: 100% !important;
+    margin-left: 150px;
+  }
+
+}
